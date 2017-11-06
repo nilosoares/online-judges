@@ -1,0 +1,4 @@
+SELECT DISTINCT STATION.CITY
+FROM STATION
+WHERE LOWER(LEFT(STATION.CITY, 1)) NOT IN ('a', 'e', 'i', 'o', 'u') OR
+      LOWER(RIGHT(STATION.CITY, 1)) NOT IN ('a', 'e', 'i', 'o', 'u')

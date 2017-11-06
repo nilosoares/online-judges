@@ -1,0 +1,4 @@
+SELECT DISTINCT STATION.CITY
+FROM STATION
+WHERE LOWER(LEFT(STATION.CITY, 1)) IN ('a', 'e', 'i', 'o', 'u') AND
+      LOWER(RIGHT(STATION.CITY, 1)) IN ('a', 'e', 'i', 'o', 'u')
