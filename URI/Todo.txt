@@ -1,5 +1,3 @@
 Beginner
-Ad-hoc
 Data Structures
-Mathematics
 
